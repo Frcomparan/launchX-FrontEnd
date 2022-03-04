@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/stylesheet.css">
+  <title>Las mil delicias</title>
+</head>
+<body>
+  <nav>
+    <figure>
+      <img src="./img/logo-pasteleria.png" alt="">
+    </figure>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./your-order.html">Make your order</a></li>
+      <li><a href="./inventory.html">Inventory</a></li>
+      <li><a href="./orders.html">Orders</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Make your order</h1>
+    <form  action="/accion.js" id="form1" method="post">
+      <h2>Type your info</h2>
+      <label for="name">
+        <span>Name</span>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Type your name"/>
+      </label>
+      <br><br>
+      <label for="telphone">
+        <span>Telephone</span>
+        <br>
+        <input type="tel" id="telphone" name="telphone" placeholder="Type your telephone"/>
+      </label>
+      <br><br>
+      <label for="email">
+        <span>Email</span>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Type your email"/>
+      </label>
+      <br><br>
+      <label for="description">
+        <span>Enter a description about your cake</span>
+        <br>
+        <input type="email" id="description" name="description" placeholder="Type your description"/>
+      </label>
+
+      <h2>Select your flavors</h2>
+      <label for="flavor1">
+        <input type="checkbox" id="flavor1" name="flavor1" value="red_velvet"/>
+        <span>Red velvet...................... $140</span>
+      </label>
+      <br>
+      <label for="flavor2">
+        <input type="checkbox" id="flavor2" name="flavor2" value="chocolate"/>
+        <span>Chocolate....................... $120</span>
+      </label>
+      <br>
+      <label for="flavor3">
+        <input type="checkbox" id="flavor3" name="flavor3" value="vanilla"/>
+        <span>Vanilla............................ $120</span>
+      </label>
+      <br>
+      <label for="flavor4">
+        <input type="checkbox" id="flavor4" name="flavor4" value="banana"/>
+        <span>Banana........................... $100</span>
+      </label>
+      <br>
+      <label for="flavor5">
+        <input type="checkbox" id="flavor5" name="flavor5" value="carrot"/>
+        <span>Carrot............................. $110</span>
+      </label>
+      <br>
+      <label for="flavor6">
+        <input type="checkbox" id="flavor6" name="flavor6" value="cheese"/>
+        <span>Cheese............................ $140</span>
+      </label>
+
+      <h2>Select your decorations</h2>
+      <label for="decoration1">
+        <input type="checkbox" id="decoration1" name="decoration1" value="inedible_image"/>
+        <span>Inedible image................ $20</span>
+      </label>
+      <br>
+      <label for="decoration2">
+        <input type="checkbox" id="decoration2" name="decoration2" value="edible_image"/>
+        <span>Edible image.................. $80</span>
+      </label>
+      <br>
+      <label for="decoration3">
+        <input type="checkbox" id="decoration3" name="decoration3" value="custom_figures"/>
+        <span>Custom set of figu.......... $300</span>
+      </label>
+      <br>
+      <label for="decoration4">
+        <input type="checkbox" id="decoration4" name="decoration4" value="custom_frosting"/>
+        <span>Custom frosting.............. $100</span>
+      </label>
+      <br><br>
+      <label for="submit">
+        <input type="submit" id="submit" name="submit"/>
+      </label>
+    </form>
+  </main>
+  <footer>
+    <div>
+      <h3>LOCATIONS</h3>
+      <ul>
+        <li>
+          <p>CALLE AGUSTIN LARA NO. 69-B</p>
+          <p>COL. EX-NORMAL TUXTEPEC</p>
+          <p>CP 68370</p>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h3>SCHEDULE</h3>
+      <ul>  
+        <li>10:00AM - 8:00PM</li>
+      </ul>
+    </div>
+    <div>
+      <h3>CONTACT US</h3>
+      <ul>
+        <li>551-356-4312</li>
+        <li>551-810-8351</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

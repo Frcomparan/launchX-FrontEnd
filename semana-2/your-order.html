@@ -22,7 +22,7 @@
   <main>
     <h1>Make your order</h1>
     <form  action="/accion.js" id="form1" method="post">
-      <h2>Type your info</h2>
+      <h2>Type your information</h2>
       <label for="name">
         <span>Name</span>
         <br>
@@ -51,31 +51,37 @@
       <label for="flavor1">
         <input type="checkbox" id="flavor1" name="flavor1" value="red_velvet"/>
         <span>Red velvet...................... $140</span>
+        <input type="number" name="cantidad" id="cantidad" placeholder="kg">
       </label>
       <br>
       <label for="flavor2">
         <input type="checkbox" id="flavor2" name="flavor2" value="chocolate"/>
         <span>Chocolate....................... $120</span>
+        <input type="number" name="cantidad" id="cantidad" placeholder="kg">
       </label>
       <br>
       <label for="flavor3">
         <input type="checkbox" id="flavor3" name="flavor3" value="vanilla"/>
         <span>Vanilla............................ $120</span>
+        <input type="number" name="cantidad" id="cantidad" placeholder="kg">
       </label>
       <br>
       <label for="flavor4">
         <input type="checkbox" id="flavor4" name="flavor4" value="banana"/>
         <span>Banana........................... $100</span>
+        <input type="number" name="cantidad" id="cantidad" placeholder="kg">
       </label>
       <br>
       <label for="flavor5">
         <input type="checkbox" id="flavor5" name="flavor5" value="carrot"/>
         <span>Carrot............................. $110</span>
+        <input type="number" name="cantidad" id="cantidad" placeholder="kg">
       </label>
       <br>
       <label for="flavor6">
         <input type="checkbox" id="flavor6" name="flavor6" value="cheese"/>
         <span>Cheese............................ $140</span>
+        <input type="number" name="cantidad" id="cantidad" placeholder="kg">
       </label>
 
       <h2>Select your decorations</h2>
@@ -99,9 +105,8 @@
         <span>Custom frosting.............. $100</span>
       </label>
       <br><br>
-      <label for="submit">
-        <input type="submit" id="submit" name="submit"/>
-      </label>
+      <input type="reset">
+      <input type="submit" id="submit" name="submit"/>
     </form>
   </main>
   <footer>
